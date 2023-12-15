@@ -1,6 +1,4 @@
-import "./App.css";
-import Navbar from "./components/navbar";
-
+import Render from "./components";
 function App() {
 	// eslint-disable-next-line no-unused-vars
 	function img(link, alt) {
@@ -9,7 +7,7 @@ function App() {
 
 	return (
 		<div className="App">
-			<Navbar />
+			<Render />
 		</div>
 	);
 }
